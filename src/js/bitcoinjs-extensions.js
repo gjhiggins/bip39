@@ -1844,6 +1844,41 @@ libs.bitcoin.networks.gapcoinregtest = {
   wif: 0x61
 };
 
+libs.bitcoin.networks.datacoin = {
+  messagePrefix: 'Datacoin Signed Message:\n',
+  bech32: 'dc',
+  bip32: {
+      public: 0x02F96103,
+      private: 0x02F9612D
+  },
+  pubKeyHash: 0x1e,
+  scriptHash: 0x5a,
+  wif: 0x9e
+};
+
+libs.bitcoin.networks.datacointestnet = {
+  messagePrefix: 'Datacoin Signed Message:\n',
+  bech32: 'dct',
+  bip32: {
+      public: 0x033C07A4,
+      private: 0x033C07CE
+  },
+  pubKeyHash: 0x46,
+  scriptHash: 0x84,
+  wif: 0xc6
+};
+
+libs.bitcoin.networks.datacoinregtest = {
+  messagePrefix: 'Datacoin Signed Message:\n',
+  bech32: 'dcrt',
+  bip32: {
+    public: 0x02F96103,
+    private: 0x02F9612D
+  },
+  pubKeyHash: 0x46,
+  scriptHash: 0x84,
+  wif: 0xc6
+};
 
 // https://github.com/libs.bitcoinjs-lib/blob/3f6f5ef97a1ee1b8337865209282c0095e22b2e7/src/networks.js
 libs.bitcoin.networks.regtest = {

@@ -929,4 +929,168 @@ libs.bitcoin.networks.gapcoinregtest.p2wshInP2sh = {
     wif: 0x61
 };
 
+// p2wpkh
+
+libs.bitcoin.networks.datacoin.p2wpkh = {
+    baseNetwork: "datacoin",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dc',
+    bip32: {
+      public: 0x02F96103,
+      private: 0x02F9612D
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x5a,
+    wif: 0x9e
+};
+
+libs.bitcoin.networks.datacointestnet.p2wpkh = {
+    baseNetwork: "datacointestnet",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dct',
+    bip32: {
+      public: 0x033C07A4,
+      private: 0x033C07CE
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+libs.bitcoin.networks.datacoinregtest.p2wpkh = {
+    baseNetwork: "datacoinregtest",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dcrt',
+    bip32: {
+      public: 0x02F96103,
+      private: 0x02F9612D
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+// p2wpkh in p2sh
+
+libs.bitcoin.networks.datacoin.p2wpkhInP2sh = {
+    baseNetwork: "datacoin",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dc',
+    bip32: {
+        public: 0x02F96299,
+        private: 0x02F962C2
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x5a,
+    wif: 0x9e
+};
+
+libs.bitcoin.networks.datacointestnet.p2wpkhInP2sh = {
+    baseNetwork: "datacointestnet",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dct',
+    bip32: {
+        public: 0x02F95C44,
+        private: 0x02F95C6E
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+libs.bitcoin.networks.datacoinregtest.p2wpkhInP2sh = {
+    baseNetwork: "datacoinregtest",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dcrt',
+    bip32: {
+        public: 0x02F96299,
+        private: 0x02F962C2
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+// p2wsh
+
+libs.bitcoin.networks.datacoin.p2wsh = {
+    baseNetwork: "datacoin",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dc',
+    bip32: {
+        public: 0x02F93C9F,
+        private: 0x02F93CC9
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x5a,
+    wif: 0x9e
+};
+
+libs.bitcoin.networks.datacointestnet.p2wsh = {
+    baseNetwork: "datacointestnet",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dct',
+    bip32: {
+        public: 0x02F9364B,
+        private: 0x02F93675
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+libs.bitcoin.networks.datacoinregtest.p2wsh = {
+    baseNetwork: "datacoinregtest",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dcrt',
+    bip32: {
+        public: 0x02F93C9F,
+        private: 0x02F93CC9
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+// p2wsh in p2sh
+
+libs.bitcoin.networks.datacoin.p2wshInP2sh = {
+    baseNetwork: "datacoin",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dc',
+    bip32: {
+        public: 0x02F93B0A,
+        private: 0x02F93B34
+    },
+    pubKeyHash: 0x1e,
+    scriptHash: 0x5a,
+    wif: 0x9e
+};
+
+libs.bitcoin.networks.datacointestnet.p2wshInP2sh = {
+    baseNetwork: "datacointestnet",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dct',
+    bip32: {
+        public: 0x02F934B6,
+        private: 0x02F934E0
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
+libs.bitcoin.networks.datacoinregtest.p2wshInP2sh = {
+    baseNetwork: "datacoinregtest",
+    messagePrefix: 'Datacoin Signed Message:\n',
+    bech32: 'dcrt',
+    bip32: {
+        public: 0x02F93B0A,
+        private: 0x02F93B34
+    },
+    pubKeyHash: 0x46,
+    scriptHash: 0x84,
+    wif: 0xc6
+};
+
 })();

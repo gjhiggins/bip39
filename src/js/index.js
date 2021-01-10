@@ -2644,6 +2644,27 @@
             },
         },
         {
+            name: "DTC - Datacoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.datacoin;
+                setHdCoin(70);
+            },
+        },
+        {
+            name: "DTC - Datacoin Testnet",
+            onSelect: function() {
+                network = libs.bitcoin.networks.datacointestnet;
+                setHdCoin(1);
+            },
+        },
+        {
+            name: "DTC - Datacoin RegTest",
+            onSelect: function() {
+                network = libs.bitcoin.networks.datacoinregtest;
+                setHdCoin(1);
+            },
+        },
+        {
             name: "GAP - Gapcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.gapcoin;
